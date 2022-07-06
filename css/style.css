@@ -353,32 +353,6 @@ header .navbar ul li a:hover{
     padding-bottom: 0;
 }
 
-.contact .row form{
-    flex:1 1 45rem;
-    padding:2rem;
-    margin:2rem;
-    margin-bottom: 4rem;
-}
-
-.contact .row form .box{
-    padding:1.5rem;
-    margin:1rem 0;
-    background:#3333;
-    color:#fff;
-    text-transform: none;
-    font-size: 1.7rem;
-    width:100%;
-}
-
-.contact .row form .box::placeholder{
-    text-transform: capitalize;
-}
-
-.contact .row form .message{
-    height: 15rem;
-    resize: none;
-}
-
 .contact .row .content .title{
     text-transform: uppercase;
     color:#fff;
