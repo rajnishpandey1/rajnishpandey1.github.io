@@ -303,6 +303,33 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
 }
 
+.certificates .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.certificates .box-container .box{
+    height: 30rem;
+    width: 40rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.certificates .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.certificates .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
 .contact .row{
     display: flex;
     align-items: center;
@@ -451,6 +478,10 @@ header .navbar ul li a:hover{
     .portfolio .box-container .box{
         width:100%;
     }
+	
+    .certificates .box-container .box{
+        width:100%;
+    }	
 
     .contact .row form{
         margin:3rem 0;
