@@ -245,7 +245,7 @@ header .navbar ul li a:hover{
 
 .education .box-container .box span{
     font-size: 1.3rem;
-    background:#222;
+    background:#ff2d2d;
     color:#fff;
     border-radius: 5rem;
     padding:.5rem 2.5rem;
@@ -255,6 +255,10 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:#fff;
     padding-top: 1.5rem;
+}
+
+.education .box-container .box h3 a{
+    color: #24f9ef;
 }
 
 .education .box-container .box p{
@@ -372,6 +376,11 @@ header .navbar ul li a:hover{
 .contact .row .content .info h3 i{
     padding-right: 1rem;
     color:var(--yellow);
+}
+
+.contact .row .content .info h3 a{
+    padding-right: 1rem;
+    color: #24f9ef;
 }
 
 .top{
